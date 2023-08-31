@@ -1,0 +1,24 @@
+{
+  "name": "@mrroll/server-only",
+  "description": "This is a marker package to indicate that a module can only be used in Server Components.",
+  "keywords": [
+    "react"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/mrroll/server-only",
+  "bugs": "https://github.com/mrroll/server-only",
+  "repository": "https://github.com/mrroll/server-only",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "empty.js"
+  ],
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "react-server": "./empty.js",
+      "tsx": "./empty.js",
+      "default": "./index.js"
+    }
+  }
+}
